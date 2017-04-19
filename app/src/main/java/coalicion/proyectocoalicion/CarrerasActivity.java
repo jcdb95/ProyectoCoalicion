@@ -46,7 +46,7 @@ public class CarrerasActivity extends AppCompatActivity {
     
     public void sugerenciaApp (MenuItem mi){
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.setData(Uri.parse("mailto: buromar.it@gmail.com")); // only email apps should handle this
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
