@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:background="#FFFFFF"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
-        android:elevation="4dp"
-        app:title="@string/app_name"
         android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
         app:theme="@style/Toolbar"
-        />
+        app:title="@string/app_name" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,62 +35,53 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="vertical"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:orientation="vertical">
 
 
-            <View
-                style="@style/Lineas_view" />
-
-            <TextView
-                android:id="@+id/arquitecturaboton"
-                style="@style/Estilo"
-                android:text="Arquitectura"
-                android:onClick="abrirArquitectura"/>
-            <View
-                style="@style/Lineas_view"/>
+            <View style="@style/Lineas_view" />
 
             <TextView
-                android:id="@+id/disenograficoboton"
+                android:id="@+id/carrera_arquitectura"
                 style="@style/Estilo"
-                android:text="Diseño Gráfico"
-                android:onClick="abrirDisenoGrafico"/>
-            <View
-                style="@style/Lineas_view" />
+                android:text="Arquitectura" />
+
+            <View style="@style/Lineas_view" />
 
             <TextView
-                android:id="@+id/disenoimagenboton"
+                android:id="@+id/carrera_disenografico"
                 style="@style/Estilo"
-                android:text="Imagen y Sonido"
-                android:onClick="abrirDisenoImgYSonido"/>
-            <View
-                style="@style/Lineas_view" />
+                android:text="Diseño Gráfico" />
+
+            <View style="@style/Lineas_view" />
 
             <TextView
-                android:id="@+id/disenoindumentariaboton"
+                android:id="@+id/carrera_imagenysonido"
                 style="@style/Estilo"
-                android:text="Diseño de Indumentaria"
-                android:onClick="abrirDisenoIndYText"/>
-            <View
-                style="@style/Lineas_view" />
+                android:text="Imagen y Sonido" />
+
+            <View style="@style/Lineas_view" />
 
             <TextView
-                android:id="@+id/disenoindustrialboton"
+                android:id="@+id/carrera_disenoindumentaria"
                 style="@style/Estilo"
-                android:text="Diseño Industrial"
-                android:onClick="abrirDisenoIndustrial"/>
-            <View
-                style="@style/Lineas_view"/>
+                android:text="Diseño de Indumentaria" />
+
+            <View style="@style/Lineas_view" />
 
             <TextView
-                android:id="@+id/disenopaisajeboton"
+                android:id="@+id/carrera_disenoindustrial"
                 style="@style/Estilo"
-                android:text="Paisajismo"
-                android:onClick="abrirPaisajismo"/>
+                android:text="Diseño Industrial" />
 
-            <View
-                style="@style/Lineas_view"/>
+            <View style="@style/Lineas_view" />
 
+            <TextView
+                android:id="@+id/carrera_paisajismo"
+                style="@style/Estilo"
+                android:text="Paisajismo" />
+
+            <View style="@style/Lineas_view" />
 
 
         </LinearLayout>
