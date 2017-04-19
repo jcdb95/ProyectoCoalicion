@@ -1,19 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="coalicion.proyectocoalicion.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        app:title="FADUApp"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/Toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:padding="8dp">
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+
+
+            <View
+                style="@style/Lineas_view" />
+
+            <TextView
+                android:id="@+id/arquitecturaboton"
+                style="@style/Estilo"
+                android:text="Arquitectura"
+                android:onClick="abrirArquitectura"/>
+            <View
+                style="@style/Lineas_view"/>
+
+            <TextView
+                android:id="@+id/disenograficoboton"
+                style="@style/Estilo"
+                android:text="Diseño Gráfico"
+                android:onClick="abrirDisenoGrafico"/>
+            <View
+                style="@style/Lineas_view" />
+
+            <TextView
+                android:id="@+id/disenoimagenboton"
+                style="@style/Estilo"
+                android:text="Imagen y Sonido"
+                android:onClick="abrirDisenoImgYSonido"/>
+            <View
+                style="@style/Lineas_view" />
+
+            <TextView
+                android:id="@+id/disenoindumentariaboton"
+                style="@style/Estilo"
+                android:text="Diseño de Indumentaria"
+                android:onClick="abrirDisenoIndYText"/>
+            <View
+                style="@style/Lineas_view" />
+
+            <TextView
+                android:id="@+id/disenoindustrialboton"
+                style="@style/Estilo"
+                android:text="Diseño Industrial"
+                android:onClick="abrirDisenoIndustrial"/>
+            <View
+                style="@style/Lineas_view"/>
+
+            <TextView
+                android:id="@+id/disenopaisajeboton"
+                style="@style/Estilo"
+                android:text="Paisajismo"
+                android:onClick="abrirPaisajismo"/>
+
+            <View
+                style="@style/Lineas_view"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
 
 </LinearLayout>

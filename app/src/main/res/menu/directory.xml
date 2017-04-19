@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="">
+
+    <item
+        android:id="@+id/OP1"
+        android:visible="true"
+        android:icon="@drawable/ent"
+        android:title="Entregas"
+        app:showAsAction="always"
+        android:onClick="abrirEntregas"/>
+
+    <item
+        android:id="@+id/OP2"
+        android:title="Calificar App"
+        android:visible="true"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:onClick="calificarApp"/>
+    <item
+        android:id="@+id/OP3"
+        android:title="Compartir App"
+        android:visible="true"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:onClick="compartirApp"/>
+    <item
+        android:id="@+id/OP"
+        android:title="Envianos tu sugerencia"
+        android:visible="true"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:onClick="sugerenciaApp"/>
+
+
+
+
+</menu>
