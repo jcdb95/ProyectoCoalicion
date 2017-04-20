@@ -4,9 +4,9 @@
     android:layout_height="match_parent">
 
     <CheckBox
-        android:id="@+id/SociedadYEstado"
+        android:id="@+id/materia_text_view"
         style="@style/checkbox_style"
         android:onClick="clickeada"
-        android:text="Sociedad y Estado"/>
+        android:text="Aca va el nombre de la materia"/>
 
 </LinearLayout>

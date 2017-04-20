@@ -50,7 +50,7 @@
 
     <style name="checkbox_style" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">3dp</item>
         <item name="android:layout_marginTop">3dp</item>
         <item name="android:layout_marginLeft">24dp</item>
@@ -64,7 +64,7 @@
 
     <style name="checkbox_style_enabled" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">3dp</item>
         <item name="android:layout_marginTop">3dp</item>
         <item name="android:layout_marginLeft">24dp</item>
