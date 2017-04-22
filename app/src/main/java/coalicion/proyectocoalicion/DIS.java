@@ -13,7 +13,6 @@ public class DIS extends CarrerasActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         myToolbar.showOverflowMenu();
-        reloadAll();
     }
     @Override
     public int getTotal() {

@@ -12,7 +12,6 @@ public class DI extends CarrerasActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         myToolbar.showOverflowMenu();
-        reloadAll();
     }
 
     @Override

@@ -11,7 +11,6 @@ public class DG extends CarrerasActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         myToolbar.showOverflowMenu();
-        reloadAll();
     }
 
 

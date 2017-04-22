@@ -150,49 +150,49 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Sociedad y Estado"
                     android:id="@+id/SociedadYEstado"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Pensamiento Cientifico"
                     android:id="@+id/PensamientoCientifico"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Proyectual I"
                     android:id="@+id/ProyectualI"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Proyectual II"
                     android:id="@+id/ProyectualII"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Matematica"
                     android:id="@+id/Matematica"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Antropología"
                     android:id="@+id/Antropologia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/TallerDeDibujo"
                     android:text="Taller de Dibujo"
                      />
@@ -209,42 +209,42 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DisenoIndustrialI"
                     android:text="Diseño Industrial I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Morfología"
                     android:id="@+id/Morfologia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Tecnología I"
                     android:id="@+id/TecnologiaI"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Física I"
                     android:id="@+id/FisicaI"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/MatematicaI"
                     android:text="Matemática I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/IntroAlDisenoYArqModerna"
                     android:text="Intro. al diseño y Arq. moderna"
                      />
@@ -262,42 +262,42 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DisenoIndustrialII"
                     android:text="Diseño Industrial II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/MorfologiaEspecialI"
                     android:text="Morfología Especial I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Tecnología II"
                     android:id="@+id/TecnologiaII"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Física II"
                     android:id="@+id/FisicaII"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Ergonomía"
                     android:id="@+id/Ergonomia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Historia del Diseño Industrial"
                     android:id="@+id/HistoriaDelDisenoIndustrial"
                      />
@@ -314,42 +314,42 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Diseño Industrial III"
                     android:id="@+id/DisenoIndustrialIII"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/MorfologiaEspecialII"
                     android:text="Morfología Especial II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/TecnologiaIII"
                     android:text="Tecnología III"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/AnalisisDeProductos"
                     android:text="Análisis de Productos"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/IndustriaArgentina"
                     android:text="Industria Argentina"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/OptativaI"
                     android:text="Optativa I"
                      />
@@ -367,49 +367,49 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Tecnología IV"
                     android:id="@+id/TecnologiaIV"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DisenoIndustrialIV"
                     android:text="Diseño Industrial IV"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DisenoIndustrialV"
                     android:text="Diseño Industrial V"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/LegislacionYPracticaProfesional"
                     android:text="Legislación y práctica profesional"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Metodologia"
                     android:text="Metodología"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/SociologiaAplicadaAlDiseno"
                     android:text="Sociología aplicada al diseño"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/OptativaII"
                     android:text="Optativa II"
                      />

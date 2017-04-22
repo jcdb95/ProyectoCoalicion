@@ -148,49 +148,49 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/SociedadYEstado"
                     android:text="Sociedad y Estado"
                     />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/PensamientoCientifico"
                     android:text="Pensamiento Cientifico"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/ProyectualI"
                     android:text="Proyectual I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/ProyectualII"
                     android:text="Proyectual II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Matematica"
                     android:text="Matematica"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Semiologia"
                     android:text="Semiología"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/TallerDeDibujo"
                     android:text="Taller de Dibujo"
                      />
@@ -207,70 +207,70 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DisenoAudiovisualI"
                     android:text="Diseño Audiovisual I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/MontajeI"
                     android:text="Montaje I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Sonido I"
                     android:id="@+id/SonidoI"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DibujoYMaqueta"
                     android:text="Dibujo y Maqueta"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/EstructurasNarrativasAudiovisuales"
                     android:text="Estructuras narrativas audiovisuales"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/HistoriaDeLosMediosInternacional"
                     android:text="Historia de los medios - Internacional"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/IluminacionYCamaraI"
                     android:text="Iluminación y cámara I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/IntroAlGuionI"
                     android:text="Intro. al Guión I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/LiteraturaDeLasArtesCombinadasI"
                     android:text="Literatura de las Artes Combinadas I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/TecnicasAudiovisuales"
                     android:text="Técnicas Audiovisuales"
                      />
@@ -287,56 +287,56 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DisenoAudiovisualII"
                     android:text="Diseño Audiovisual II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Estetica"
                     android:text="Estética"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Guión I"
                     android:id="@+id/GuionI"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/HistoriaDeLosMediosArgYLatAm"
                     android:text="Historia de los medios - Arg y LatAm"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/LiteraturaDeLasArtesCombinadasII"
                     android:text="Literatura de las Artes Combinadas II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/ProduccionYPlanificacion"
                     android:text="Producción y Planificación"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/TeoriaYEsteticaDeLosMedios"
                     android:text="Teoría y Estética de los medios"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Electivas"
                     android:text="Electivas"
                      />
@@ -353,42 +353,42 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DisenoAudiovisualIII"
                     android:text="Diseño Audiovisual III"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Guión II"
                     android:id="@+id/GuionII"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/DifusionYComercializacionDeLosMedios"
                     android:text="Difusión y Comercialización de los Medios"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/EsteticaDelCineYTeoriaCinematografica"
                     android:text="Estética del Cine y Teoría Cinematográfica"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Sociología"
                     android:id="@+id/Sociologia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Optatitvas"
                     android:text="Optativas"
                      />

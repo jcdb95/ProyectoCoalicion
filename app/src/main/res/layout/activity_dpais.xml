@@ -148,49 +148,49 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/SociedadYEstado"
                     android:text="Sociedad y Estado"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/PensamientoCientifico"
                     android:text="Pensamiento Cientifico"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/ProyectualI"
                     android:text="Proyectual I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Proyectual II"
                     android:id="@+id/ProyectualII"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Matematica I"
                     android:id="@+id/MatematicaI"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Biología"
                     android:id="@+id/Biologia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/TallerDeDibujo"
                     android:text="Taller de Dibujo"
                      />
@@ -207,49 +207,49 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/PlanificacionYDisenoDelPaisajeI"
                     android:text="Planificación y Diseño del Paisaje I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/SistemasDeRepGeometrica"
                     android:text="Sistemas de Rep. Geometrica"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/QuimicaGeneral"
                     android:text="Química General"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/BotanicaGeneral"
                     android:text="Botánica General"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/FisicaAplicada"
                     android:text="Física Aplicada"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/QuimicaBiologica"
                     android:text="Química Biológica"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/BotanicaSistematica"
                     android:text="Botánica Sistemática"
                      />
@@ -257,13 +257,13 @@
                 <CheckBox
                     style="@style/checkbox_style"
                     android:id="@+id/MaterialesElementosYProcedimientosDeConstruccion"
-                    android:onClick="clickeada"
+
                     android:text="Materiales, Elementos y Procedimientos de Construcción"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Vegetación I"
                     android:id="@+id/VegetacionI"
                      />
@@ -280,56 +280,56 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Planificación y Diseño del Paisaje II"
                     android:id="@+id/PlanificacionYDisenoDelPaisajeII"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/VegetacionII"
                     android:text="Vegetación II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/FisiologiaVegetal"
                     android:text="Fisiología Vegetal"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Edafología"
                     android:id="@+id/Edafologia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Instalaciones y Equipamientos"
                     android:id="@+id/InstalacionesYEquipamientos"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Climatología y Fenología"
                     android:id="@+id/ClimatologiaYFenologia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Topografia"
                     android:text="Topografía"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/MorfologiaYComunicacionI"
                     android:text="Morfología y Comunicación I"
                      />
@@ -346,49 +346,49 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/PlanificacionYDisenoDelPaisajeIII"
                     android:text="Planificación y Diseño del Paisaje III"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/HistoriaDeLaArqPaisajisticaI"
                     android:text="Historia de la Arquitectura Paisajística I"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/MorfologiaYComunicacionII"
                     android:text="Morfología y Comunicación II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/ManejoDelSueloYLaVegetacion"
                     android:text="Manejo del Suelo y la Vegetación"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Ecología"
                     android:id="@+id/Ecologia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Geografía"
                     android:id="@+id/Geografia"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/Fitogeografia"
                     android:text="Fitogeografía"
                      />
@@ -396,7 +396,7 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Optativa"
                     android:id="@+id/Optativa"
                      />
@@ -413,49 +413,49 @@
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/PlanificacionYDisenoDelPaisajeIV"
                     android:text="Planificación y Diseño del Paisaje IV"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/HistoriaDeLaArqPaisajisticaII"
                     android:text="Historia de la Arquitectura Paisajística II"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/PlaneamientoUrbanoYRegional"
                     android:text="Planeamiento Urbano y Regional"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/EcologiaDelPaisaje"
                     android:text="Ecología del Paisaje"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/TrabajoFinal"
                     android:text="Trabajo Final"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:id="@+id/PracticaProfesional"
                     android:text="Práctica Profesional"
                      />
 
                 <CheckBox
                     style="@style/checkbox_style"
-                    android:onClick="clickeada"
+
                     android:text="Optativa"
                     android:id="@+id/Optativa2"
                      />

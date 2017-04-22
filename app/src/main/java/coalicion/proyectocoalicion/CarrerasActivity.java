@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -14,37 +15,37 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Map;
+import java.util.ArrayList;
 
 public class CarrerasActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-
     }
 
+
+    // Maneja la barra de arriba / toolbar
+
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater=getMenuInflater();
+        MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.directory, menu);
         return super.onCreateOptionsMenu(menu);
     }
-
 
     public void abrirEntregas(MenuItem mi) {
         setContentView(R.layout.entregas);
     }
 
-
-    public void calificarApp (MenuItem mi){
+    public void calificarApp(MenuItem mi) {
         Toast.makeText(this, "PROXIMAMENTE...", Toast.LENGTH_SHORT).show();
     }
 
-    public void compartirApp (MenuItem mi){
+    public void compartirApp(MenuItem mi) {
+        Toast.makeText(this, "PROXIMAMENTE...", Toast.LENGTH_SHORT).show();
     }
-    
-    public void sugerenciaApp (MenuItem mi){
+
+    public void sugerenciaApp(MenuItem mi) {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto: buromar.it@gmail.com")); // only email apps should handle this
         if (intent.resolveActivity(getPackageManager()) != null) {
@@ -52,21 +53,12 @@ public class CarrerasActivity extends AppCompatActivity {
         }
     }
 
+    // Maneja el estado de las checkbox: si estan checkeadas o no
 
     public void clickeada(View view) {
         CheckBox checkBox = (CheckBox) view;
+
         storeMateria(String.valueOf(checkBox.getId()), checkBox.isChecked());
-        reloadAll();
-
-        // TODO Codigo para correlatividades
-
-        CheckBox SyE = (CheckBox) findViewById(R.id.SociedadYEstado);
-        CheckBox PensCientif = (CheckBox) findViewById(R.id.PensamientoCientifico);
-        if(SyE.isChecked()){
-            PensCientif.setEnabled(true);
-        } else {
-            PensCientif.setEnabled(false);
-        }
     }
 
     public void storeMateria(String idMateria, Boolean state) {
@@ -81,24 +73,25 @@ public class CarrerasActivity extends AppCompatActivity {
         return 0;
     }
 
-    public void reloadAll() {
+    public void reloadAll(ArrayList<Materia> materias) {
         SharedPreferences pref = getMySharedPreferences();
-        int Aprobadas = 0;
-        for (Map.Entry<String, ?> entry : pref.getAll().entrySet()) {
-            String materia = entry.getKey();
-            Boolean aprobada = (Boolean) entry.getValue();
-            Aprobadas += (aprobada ? 1 : 0);
-            CheckBox cb = (CheckBox) findViewById(Integer.valueOf(materia));
-            cb.setChecked(aprobada);
+        int aprobadas = 0;
+        for(Materia materia : materias) {
+            String materiaId = materia.nombre();
+            Boolean aprobada = pref.getBoolean(materiaId, false);
+            materia.setAprobada(aprobada);
+            aprobadas += (aprobada ? 1 : 0);
         }
-        setAprobadas(Aprobadas);
-        setRestantes(getTotal() - Aprobadas);
-        setPorcentaje(Float.valueOf(Aprobadas) / Float.valueOf(getTotal()));
+        setAprobadas(aprobadas);
+        setRestantes(getTotal() - aprobadas);
+        setPorcentaje(Float.valueOf(aprobadas) / Float.valueOf(getTotal()));
     }
 
     private SharedPreferences getMySharedPreferences() {
         return getSharedPreferences(getLocalClassName(), MODE_PRIVATE);
     }
+
+    // Maneja los numeros de materias aprobadas y restantes y la barra de progreso
 
     private void setAprobadas(int number) {
         TextView aprobadasTextView = (TextView) findViewById(R.id.aprobadas_text_view);
