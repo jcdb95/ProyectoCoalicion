@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.CheckBox;
 import android.widget.ListView;
+
 import java.util.ArrayList;
+
 import static coalicion.proyectocoalicion.R.id.list;
 
 public class Arquitectura extends CarrerasActivity {
@@ -15,15 +17,21 @@ public class Arquitectura extends CarrerasActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Crear toolbar de arriba
+
         setContentView(R.layout.materias_list);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         myToolbar.showOverflowMenu();
 
-        final ArrayList<Materia> materias = new ArrayList<Materia>();
+        // Para cambiar el texto que aparece en la toolbar de arriba
+
+        getSupportActionBar().setTitle("Arquitectura");
 
         // ArrayList de las materias de la carrera
         // Cada item toma como parametro el nombre de la materia y el estado aprobada o no
+
+        final ArrayList<Materia> materias = new ArrayList<Materia>();
 
         materias.add(new Materia("Sociedad y Estado", false));
         materias.add(new Materia("Pepe", false));
@@ -54,7 +62,6 @@ public class Arquitectura extends CarrerasActivity {
                 adapter.notifyDataSetChanged();
             }
         });
-
 
     }
 
