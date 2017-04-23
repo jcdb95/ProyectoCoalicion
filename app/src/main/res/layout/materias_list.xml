@@ -13,8 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:elevation="4dp"
-        app:theme="@style/Toolbar"
-        />
+        app:theme="@style/Toolbar" />
 
     <RelativeLayout
         android:id="@+id/textViewHeader"
@@ -36,14 +35,14 @@
                 android:id="@+id/aprobadas_text_view"
                 style="@style/Header_view"
                 android:fontFamily="sans-serif-light"
-                android:text="Aprobadas: 0 "
+                android:text="Aprobadas: "
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/restantes_text_view"
                 style="@style/Header_view"
                 android:fontFamily="sans-serif-light"
-                android:text="Restantes: 41"
+                android:text="Restantes: "
                 android:textStyle="bold" />
 
 
@@ -104,26 +103,23 @@
         android:layout_height="1dp"
         android:background="@color/colorAccent" />
 
-    <ListView
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/list"
-        android:orientation="vertical">
-    </ListView>
+        android:orientation="vertical"></ListView>
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentTop="true"
-                android:background="@drawable/fondo2" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/fondo2" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentBottom="true"
-                android:background="@drawable/fondo1" />
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/fondo1" />
 
 
 </LinearLayout>

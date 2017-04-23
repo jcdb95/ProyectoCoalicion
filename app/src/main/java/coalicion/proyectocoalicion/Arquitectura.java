@@ -62,7 +62,6 @@ public class Arquitectura extends CarrerasActivity {
                 adapter.notifyDataSetChanged();
             }
         });
-
     }
 
     // Total de materias de la carrera
