@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
-
 import java.util.ArrayList;
 
 /**
@@ -32,11 +31,7 @@ public class MateriaAdapter extends ArrayAdapter<Materia> {
 
         CheckBox checkbox = (CheckBox) listItemView.findViewById(R.id.materia_text_view);
         checkbox.setText(currentMateria.nombre());
-        Log.d("DEBUG", "materia: " + currentMateria.nombre());
         checkbox.setChecked(currentMateria.aprobada());
-        Log.d("DEBUG", "aprobada: " + currentMateria.aprobada());
-
-        checkbox.setOnClickListener();
 
         return checkbox;
     }

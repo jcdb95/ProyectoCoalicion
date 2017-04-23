@@ -9,8 +9,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,9 +19,7 @@ public class CarrerasActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
-
 
     // Maneja la barra de arriba / toolbar
 
@@ -53,13 +49,7 @@ public class CarrerasActivity extends AppCompatActivity {
         }
     }
 
-    // Maneja el estado de las checkbox: si estan checkeadas o no
-
-    public void clickeada(View view) {
-        CheckBox checkBox = (CheckBox) view;
-
-        storeMateria(String.valueOf(checkBox.getId()), checkBox.isChecked());
-    }
+    // Maneja el estado de las checkbox y guarda la informacion en las SharedPreferences
 
     public void storeMateria(String idMateria, Boolean state) {
         SharedPreferences pref = getMySharedPreferences();
@@ -68,7 +58,6 @@ public class CarrerasActivity extends AppCompatActivity {
         editor.apply();
     }
 
-
     public int getTotal() {
         return 0;
     }
@@ -76,7 +65,7 @@ public class CarrerasActivity extends AppCompatActivity {
     public void reloadAll(ArrayList<Materia> materias) {
         SharedPreferences pref = getMySharedPreferences();
         int aprobadas = 0;
-        for(Materia materia : materias) {
+        for (Materia materia : materias) {
             String materiaId = materia.nombre();
             Boolean aprobada = pref.getBoolean(materiaId, false);
             materia.setAprobada(aprobada);
@@ -104,11 +93,9 @@ public class CarrerasActivity extends AppCompatActivity {
     }
 
     private void setPorcentaje(float number) {
-        // Actualize porcentaje numerico y barra
         int porcentajeInt = (int) Math.round(number * 100);
         TextView porcentajeTextView = (TextView) findViewById(R.id.porcentaje_text_view);
         porcentajeTextView.setText(porcentajeInt + " %");
-
         ProgressBar laBarrita = (ProgressBar) findViewById(R.id.progressBarView);
         laBarrita.setProgress(porcentajeInt);
     }

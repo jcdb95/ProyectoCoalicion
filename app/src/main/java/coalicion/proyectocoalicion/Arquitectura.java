@@ -6,13 +6,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.ListView;
-
 import java.util.ArrayList;
-
 import static coalicion.proyectocoalicion.R.id.list;
-
 
 public class Arquitectura extends CarrerasActivity {
     @Override
@@ -26,6 +22,9 @@ public class Arquitectura extends CarrerasActivity {
 
         final ArrayList<Materia> materias = new ArrayList<Materia>();
 
+        // ArrayList de las materias de la carrera
+        // Cada item toma como parametro el nombre de la materia y el estado aprobada o no
+
         materias.add(new Materia("Sociedad y Estado", false));
         materias.add(new Materia("Pepe", false));
 
@@ -38,16 +37,28 @@ public class Arquitectura extends CarrerasActivity {
         ListView listView = (ListView) findViewById(list);
         listView.setAdapter(adapter);
 
+        // Asignar un click listener a cada materia creada
 
-        AdapterView.OnItemClickListener mMessageClickedHandler = new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView MateriaAdapter, View v, int position, long id) {
-                Log.d("DEBUG", "onClickListener funcionando!");
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View item, int position, long id) {
+                for (Materia materia : materias) {
+                    CheckBox cb = (CheckBox) item;
+                    if (materia.nombre().equals(cb.getText())) {
+                        materia.setAprobada(!materia.aprobada());
+                        storeMateria(materia.nombre(), materia.aprobada());
+                        reloadAll(materias);
+                        break;
+                    }
+                }
+                adapter.notifyDataSetChanged();
             }
-        };
+        });
 
-        listView.setOnItemClickListener(mMessageClickedHandler);
 
     }
+
+    // Total de materias de la carrera
 
     @Override
     public int getTotal() {

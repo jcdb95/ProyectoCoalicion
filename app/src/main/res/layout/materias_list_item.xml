@@ -6,6 +6,8 @@
     <CheckBox
         android:id="@+id/materia_text_view"
         style="@style/checkbox_style"
-        android:text="Aca va el nombre de la materia"/>
-
+        android:text="Aca va el nombre de la materia"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
 </LinearLayout>
