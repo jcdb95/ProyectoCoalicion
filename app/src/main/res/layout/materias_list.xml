@@ -103,11 +103,23 @@
         android:layout_height="1dp"
         android:background="@color/colorAccent" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        >
+
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></ListView>
+        android:orientation="vertical"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="6dp"
+        android:layout_marginTop="12dp"
+        ></ListView>
+    </RelativeLayout>
 
     <ImageView
         android:layout_width="match_parent"

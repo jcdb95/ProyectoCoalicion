@@ -5,7 +5,7 @@
 
     <CheckBox
         android:id="@+id/materia_text_view"
-        style="@style/checkbox_style"
+        style="@style/checkbox_style_enabled"
         android:text="Aca va el nombre de la materia"
         android:clickable="false"
         android:focusable="false"
