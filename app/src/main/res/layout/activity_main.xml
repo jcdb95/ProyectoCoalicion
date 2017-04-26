@@ -70,6 +70,13 @@
             <View style="@style/Lineas_view" />
 
             <TextView
+                android:id="@+id/carrera_disenotextil"
+                style="@style/Estilo"
+                android:text="Diseño Textil" />
+
+            <View style="@style/Lineas_view" />
+
+            <TextView
                 android:id="@+id/carrera_disenoindustrial"
                 style="@style/Estilo"
                 android:text="Diseño Industrial" />

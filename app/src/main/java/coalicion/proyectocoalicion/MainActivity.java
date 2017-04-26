@@ -48,8 +48,18 @@ public class MainActivity extends AppCompatActivity {
         disenoindumentaria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent disenoindumentariaIntent = new Intent(MainActivity.this, DIT.class);
+                Intent disenoindumentariaIntent = new Intent(MainActivity.this, DINDUMENTARIA.class);
                 startActivity(disenoindumentariaIntent);
+            }
+        });
+
+        // Diseno de Textil OnClickListener
+        TextView disenotextil = (TextView) findViewById(R.id.carrera_disenotextil);
+        disenotextil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent disenotextilIntent = new Intent(MainActivity.this, DTEXTIL.class);
+                startActivity(disenotextilIntent);
             }
         });
 

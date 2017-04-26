@@ -39,8 +39,12 @@
             android:name=".DPAIS"
             android:label="Planificacion y Diseño de Paisaje" />
         <activity
-            android:name=".DIT"
-            android:label="Diseño de Indumentaria y Textil" />
+            android:name=".DINDUMENTARIA"
+            android:label="Diseño de Indumentaria" />
+        <activity
+            android:name=".DTEXTIL"
+            android:label="Diseño Textil" />
+
 
     </application>
 
