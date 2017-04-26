@@ -44,7 +44,7 @@
             <TextView
                 android:id="@+id/carrera_arquitectura"
                 style="@style/Estilo"
-                android:text="WASAAAAA" />
+                android:text="WASAAAAAaaaaa" />
 
             <View style="@style/Lineas_view" />
 
